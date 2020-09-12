@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "aula2",
+            "cwd": "aula2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula3",
+            "cwd": "aula3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula4",
+            "cwd": "aula4",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula5",
+            "cwd": "aula5",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula_0",
+            "cwd": "aula_0",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "trabalho3",
+            "cwd": "Trabalhos/trabalho3",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
