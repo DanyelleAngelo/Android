@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "550499080176",
+    "firebase_url": "https://trabalho4-opta2.firebaseio.com",
+    "project_id": "trabalho4-opta2",
+    "storage_bucket": "trabalho4-opta2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550499080176:android:5780f66b86cbe835692f35",
+        "android_client_info": {
+          "package_name": "br.com.opta2.trabalho4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550499080176-kntq0t9ig5l92rmjo0a84oj8of1fc1h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoIuFPSopuPRA0EBdCFBAvj0InfEEchiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550499080176-kntq0t9ig5l92rmjo0a84oj8of1fc1h0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
