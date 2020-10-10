@@ -1,4 +1,5 @@
 import 'package:trabalho4/view/cadastro.dart';
+import 'package:trabalho4/view/exibe_programa.dart';
 import 'package:trabalho4/view/lista_programa.dart';
 import 'package:flutter/material.dart';
 import 'package:trabalho4/controller/programa.dart';
@@ -43,25 +44,13 @@ class _ProgramaItemState extends State<ProgramaItem> {
       ),
       direction: DismissDirection.startToEnd,
       child: Card(
-        color: Colors.blueGrey[700],
+        color: Colors.indigo[900],
         child: ListTile(
           title: Text(
             widget._programa.nome,
             style: TextStyle(
               fontSize: 16.0,
-            ),
-          ),
-          subtitle: Text(
-            "Sobre: ${widget._programa.sobre.toString()}\n"+
-            "Duração: ${widget._programa.duracao.toString()}\n"+
-            "Studio: ${widget._programa.studio.toString()}\n"+
-            "Distribuidor: ${widget._programa.distribuidor.toString()}\n"+
-            "País de origem: ${widget._programa.pais.toString()}\n"+
-            "Idioma original: ${widget._programa.idioma.toString()}\n"+
-            "Avaliação: ${widget._programa.avaliacao.toString()}\n"+
-            "Ano de lançamento: ${widget._programa.ano.toString()}\n",
-            style: TextStyle(
-              fontSize: 12.0,
+              color: Colors.white,
             ),
           ),
        
@@ -69,7 +58,7 @@ class _ProgramaItemState extends State<ProgramaItem> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => CadastroPrograma(
+                builder: (context) => ExibePrograma(
                   programa: widget._listaProgramas[widget._index],
                 ),
               ),

@@ -3,7 +3,7 @@ import 'package:trabalho4/component/cria_dropdown.dart';
 import 'package:trabalho4/controller/programa.dart';
 import 'package:trabalho4/model/programa.dart';
 import 'package:flutter/material.dart';
-
+import 'exibe_programa.dart';
 import 'lista_programa.dart';
 
 class CadastroPrograma extends StatefulWidget {
@@ -24,7 +24,7 @@ class _CadastroProgramaState extends State<CadastroPrograma> {
   TextEditingController _idiomaController = TextEditingController();
   TextEditingController _avaliacaoController = TextEditingController();
   TextEditingController _anoController = TextEditingController();
-  var _avaliacao = ["", "Péssimo", "Ruim","Médiano","Bom","Ótimo"];
+  var _avaliacao = ["", "Péssimo", "Ruim","Mediano","Bom","Ótimo"];
   var _avaliacaoSelecionada = "";
 
   final _scaffoldKey = GlobalKey<ScaffoldState>();
@@ -121,7 +121,7 @@ class _CadastroProgramaState extends State<CadastroPrograma> {
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: criaTextField("Páis de origem", _paisController, TextInputType.text),
+              child: criaTextField("País de origem", _paisController, TextInputType.text),
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
